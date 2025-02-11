@@ -1,11 +1,3 @@
-#!/usr/bin/python
-# << CODE BY HUNX04
-# << MAU RECODE ??? IZIN DULU LAH,  MINIMAL TAG AKUN GITHUB MIMIN YANG MENGARAH KE AKUN INI, LEBIH GAMPANG SI PAKE FORK
-# << KALAU DI ATAS TIDAK DI IKUTI MAKA AKAN MENDAPATKAN DOSA KARENA MIMIN GAK IKHLAS
-# “Wahai orang-orang yang beriman! Janganlah kamu saling memakan harta sesamamu dengan jalan yang batil,” (QS. An Nisaa': 29). Rasulullah SAW juga melarang umatnya untuk mengambil hak orang lain tanpa izin.
-
-# IMPORT MODULE
-
 import json
 import requests
 import time
@@ -13,6 +5,47 @@ import os
 import phonenumbers
 from phonenumbers import carrier, geocoder, timezone
 from sys import stderr
+import requests
+import random
+import requests
+import json
+import pyfiglet
+import sys
+import time
+import os
+import uuid
+import webbrowser
+import fake_useragent
+
+
+
+Ab = '\033[1;92m'
+aB = '\033[1;91m'
+AB = '\033[1;96m'
+aBbs = '\033[1;93m'
+AbBs = '\033[1;95m'
+A_bSa = '\033[1;31m'
+a_bSa = '\033[1;32m'
+faB_s = '\033[2;32m'
+a_aB_s = '\033[2;39m'
+Ba_bS = '\033[2;36m'
+Ya_Bs = '\033[1;34m'
+S_aBs = '\033[1;33m'
+ab = pyfiglet.figlet_format("TOXIC")
+print(a_bSa + ab)
+
+
+def to(s):
+    for char in s + "\n":
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(500.0 / 8000)
+
+
+to(
+    f"\033[31;m Script Type>> \033[1;36mToxic Location Tool 🔥\n\033[1;31m Telegram >>\033[1;33m@Toxicarjun\n\033[31;m Creator >>\033[1;33m@CDMAXX\n\033[31;m Tool Status >>\033[1;33mWorking\n\033[31;m Tool Value >>\033[1;33mPaid Script\n\033[31;m Time >>\033[1;33m6 month's\n\033[31;m")
+print('')
+print('\033[32;m')
 
 Bl = '\033[30m'  # VARIABLE BUAT WARNA CUYY
 Re = '\033[1;31m'
